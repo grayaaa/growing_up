@@ -94,6 +94,7 @@ function showMyWealth() {
         alert("昵称不能为空");
         return false;
     }
+    document.domain = '163.com';
     var url = "http://active.163.com/service/form/v1/2685/submit";
     var data = {
         nickname: nick,
